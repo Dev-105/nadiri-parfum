@@ -5,55 +5,20 @@
 
 // 1. عطور النيش الفاخرة (PARFUMS DE NICHE)
 // يبدأ بالمعرف 0 كمرجع، إذا جعلت المصفوفة فارغة [] يختفي القسم بالكامل من الموقع
+// { 
+//     id: 0, 
+//     name: "Baccarat Rouge 540 Extrait", 
+//     des: "عطر النخبة العالمي، نفحات فاخرة من العنبر والياسمين والزعفران المركز بفوحان وثبات أسطوري.", 
+//     price: 340, 
+//     price10ml: 340, 
+//     price5ml: 180, 
+//     rate: 5, 
+//     gender: "unisex", 
+//     type: "all-season", 
+//     image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=80" 
+//   }
 window.nichePerfumes = [
-  { 
-    id: 0, 
-    name: "Baccarat Rouge 540 Extrait", 
-    des: "عطر النخبة العالمي، نفحات فاخرة من العنبر والياسمين والزعفران المركز بفوحان وثبات أسطوري.", 
-    price: 340, 
-    price10ml: 340, 
-    price5ml: 180, 
-    rate: 5, 
-    gender: "unisex", 
-    type: "all-season", 
-    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=600&q=80" 
-  },
-  { 
-    id: 101, 
-    name: "Aventus Creed", 
-    des: "ملك عطور النيش الرجالية، افتتاحية أناناس دخانية فاخرة تمنحك إطلالة القادة والشخصيات الرفيعة.", 
-    price: 320, 
-    price10ml: 320, 
-    price5ml: 170, 
-    rate: 5, 
-    gender: "homme", 
-    type: "all-season", 
-    image: "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=600&q=80" 
-  },
-  { 
-    id: 102, 
-    name: "Oud Maracujá Maison Crivelli", 
-    des: "تحفة نيش ساحرة تدمج بين فاكهة الباشن فروت الاستوائية والعود النقي الفخم بأداء نفاث واستثنائي.", 
-    price: 350, 
-    price10ml: 350, 
-    price5ml: 190, 
-    rate: 5, 
-    gender: "unisex", 
-    type: "winter", 
-    image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=600&q=80" 
-  },
-  { 
-    id: 103, 
-    name: "Grand Soir Maison Francis Kurkdjian", 
-    des: "عطر الليالي الملكية، مزيج العنبر الدافئ والفانيليا الفاخرة لإحساس لا يُنسى من الرقي والفخامة.", 
-    price: 310, 
-    price10ml: 310, 
-    price5ml: 165, 
-    rate: 5, 
-    gender: "unisex", 
-    type: "winter", 
-    image: "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=600&q=80" 
-  }
+  
 ];
 
 // 2. قائمة العطور العادية الأساسية والجديدة (تباع كعينات Decant 5ml و 10ml + Old Spice الأصلي)
